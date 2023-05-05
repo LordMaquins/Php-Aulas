@@ -1,0 +1,93 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+*{
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;   
+}
+
+#menu_h{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(2, 0, 36);
+}
+
+#menu_h ul li{
+display: inline;
+}
+#menu_h ul li a{
+    color:#fff;
+    padding:10px;
+    display: inline-block;
+    text-decoration: none;
+    transition:background .4s
+}
+
+#menu_h ul li   a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menu_h ul li:last-child{
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+
+
+
+
+
+
+
+
+.banner img {
+    width: 87%;
+    height: 87vh;
+}
+
+.preto {
+    width: 100%;
+    position: absolute;
+    top: 10;
+    left: 10;
+    height: 100vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(0deg, rgb(0, 0, 0) 7%, rgba(0, 0, 0, 0.400) 30%, rgba(196, 196, 196, 0) 100%);
+    
+
+}
+
+
+
+header nav {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+header nav ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul li a {
+    color: rgb(0, 0, 0);
+}
+
+p {
+    color: white;
+    font-size: 100px;
+}
