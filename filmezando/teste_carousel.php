@@ -1,13 +1,3 @@
-<?php include("cabecalho.php"); ?>
-
-
-
-
-<div class="preto"></div>
-<div class="banner">
-    
-    <div class="preto">
-
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -16,15 +6,13 @@
   </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-    <img src="images/guardians_of_the_galaxy_vol_three_ver5_xlg.jpg" alt="First slide">
+      <img class="d-block w-100" src="guardians_of_the_galaxy_vol_three_banner.jpg" alt="First slide">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="images/creed_iii_ver9_banner.jpg" alt="Second slide">
+      <img class="d-block w-100" src="..." alt="Second slide">
     </div>
     <div class="carousel-item">
-    
-      <img class="d-block w-100" src="images/super_mario_bros_the_movie_banner.jpg" alt="Third slide">
-
+      <img class="d-block w-100" src="..." alt="Third slide">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -35,8 +23,4 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-  
-  </div>
 </div>
-</div>
-< <?php include("rodape.php"); ?>

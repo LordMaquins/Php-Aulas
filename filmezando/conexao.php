@@ -1,7 +1,7 @@
 <?php 
 
     $servidor = "localhost";
-    $banco="filminho";
+    $banco="dbaula";
     $usuario="root";
     $senha="";
 
