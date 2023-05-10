@@ -34,31 +34,9 @@ display: inline;
 
 #menu_h ul li:last-child{
     float: right;
-    background-color: rgb(24, 139, 233);
+    background-color: rgb(186, 42, 42);
 }
 
-
-
-.banner img {
-    width: 87%;
-    height: 87vh;
-}
-.bannee2 {
-    width: 100%;
-    height: 98vh;
-}
-
-.preto {
-    width: 100%;
-    position: absolute;
-    top: 10;
-    left: 10;
-    height: 100vh;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(0deg, rgb(0, 0, 0) 7%, rgba(0, 0, 0, 0.400) 30%, rgba(196, 196, 196, 0) 100%);
-    
-
-}
 
 
 
@@ -86,7 +64,27 @@ header nav ul li a {
     color: rgb(0, 0, 0);
 }
 
-p {
-    color: white;
-    font-size: 100px;
+.container{
+    width: 90%;
+    padding: 20px;
+    margin: 100px auto;
+    flex-direction: row;
+    justify-content: center;
 }
+.box{
+    width: 250px;
+    margin:0 10px ;
+    box-shadow: 0 0 20px 2px rgba(0,0,0, .1);
+    
+}
+.box img{
+    display: inline;
+    width: 100%;
+    border-radius: 50px;
+}
+.box :hover{
+    transform: scale(1.2);
+    z-index:2;
+    transition: 1s;
+}
+
