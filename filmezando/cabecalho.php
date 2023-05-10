@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    
 
 <header>
     <nav id="menu_h">
         <ul >
-        <h1> FILMEZANDO</h1>
+            <h1>FILMEZANDO</h1>
         
+
             <li><a href="index.php">Início</a></li>
             <li><a href="filmes.php">Filmes</a></li>
             <li><a href="animes.php">Animes</a></li>
