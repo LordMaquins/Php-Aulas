@@ -12,10 +12,10 @@
 
         <li><a href="index.php">Início</a></li>
         <li><a href="filmes.php">Filmes</a></li>
-        <li><a href="animes.php">Animes</a></li>
+        <li><a href="noticias.php">Notícias</a></li>
         <li> <a href="contato.php"> Contato </a> </li>
         <li> <a href="contato-lista.php"> Listar Contatos </a> </li>
-        <li><a href="login.php">Entrar</a></li>
+        <li><a href="cadastro-filmes.php">Cadastro Filmes</a></li>
       </ul>
     </nav>
   </header>
@@ -30,59 +30,59 @@
       <div class="item ">
         <a href='http://url-destino'><img class="arredondado" src="images/guardians_of_the_galaxy_vol_three_ver2.jpg" class="img-fluid"
             alt="Responsive image"></a>
-        <h2>Guardiões da Galaxia vol.3</h2>
+        <p>Guardiões da Galaxia vol.3</h2>
       </div>
       <div class="item ">
         <a href='http://url-destino'><img class="arredondado" src="images/oppenheimer_2.jpg" class="img-fluid" alt="Responsive image"></a>
-        <h2>Oppenheimer</h2>
+        <p>Oppenheimer</h2>
       </div>
       <div class="item">
         <a href='http://url-destino'><img class="arredondado" src="images/spiderman_across_the_spiderverse_ver3.jpg" class="img-fluid"
             alt="Responsive image"></a>
-        <h2>Spiderman Através do Arannha Verso</h2>
+            <p>Spiderman Através do Arannha Verso</h2>
       </div>
       <div class="item">
         <a href='http://url-destino'> <img class="arredondado" src="images/indiana jones.jpg  "
             class="img-fluid" alt="Responsive image"></a>
-        <h1>Indiana Jones: A relíquia do destino</h1>
+            <p>Indiana Jones: A relíquia do destino</h1>
       </div>
 
       <div class="item">
         <a href='http://url-destino'> <img class="arredondado" src="images/barbie.jpg "
             class="img-fluid" alt="Responsive image"></a>
-        <h1>Barbie</h1>
+            <p>Barbie</h1>
       </div>
 
       <div class="item">
         <a href='http://url-destino'> <img class="arredondado" src="images/marvels_xlg.jpg"
             class="img-fluid" alt="Responsive image"></a>
-        <h1>As Marvels</h1>
+            <p>As Marvels</h1>
       </div>
 
       
       <div class="item">
         <a href='http://url-destino'> <img class="arredondado" src="images/missao impssivel.jpg"
             class="img-fluid" alt="Responsive image"></a>
-        <h1>Missão: Impossível – Acerto de Contas </h1>
+            <p>Missão: Impossível – Acerto de Contas </h1>
       </div>
 
       
       <div class="item">
         <a href='http://url-destino'> <img class="arredondado" src="images/fastxposter_3955893.jpg"
             class="img-fluid" alt="Responsive image"></a>
-        <h1>Velozes e furiosos 10</h1>
+            <p>Velozes e furiosos 10</h1>
       </div>
 
       <div class="item">
         <a href='http://url-destino'> <img class="arredondado" src="images/besouro azul.jpg"
             class="img-fluid" alt="Responsive image"></a>
-        <h1>Besouro Azul</h1>
+            <p>Besouro Azul</h1>
       </div>
 
       <div class="item">
         <a href='http://url-destino'><img class="arredondado" src="images/super_mario_bros_the_movie_ver10.jpg" class="img-fluid"
             alt="Responsive image"></a>
-        <h2>Super Mario Broos</h2>
+            <p>Super Mario Broos</h2>
       </div>
       <div class="item">
         <a href='http://url-destino'><img class="arredondado" src="images/dune_part_two.jpg" class="img-fluid" alt="Responsive image"></a>
@@ -90,22 +90,22 @@
       </div>
       <div class="item">
         <a href='http://url-destino'><img class="arredondado" src="images/creed_iii_xlg.jpg" class="img-fluid" alt="Responsive image"></a>
-        <h2>Creed III</h2>
+        <p>>Creed III</h2>
       </div>
       <div class="item">
         <a href='http://url-destino'><img class="arredondado" src="images/dungeons_and_dragons_honor_among_thieves_ver2_xlg.jpg"
             class="img-fluid" alt="Responsive image"></a>
-        <h2>Dungeons & Dragons</h2>
+        <p>Dungeons & Dragons</h2>
       </div>
       <div class="item">
         <a href='http://url-destino'><img class="arredondado" src="images/john_wick_chapter_four_xlg.jpg" class="img-fluid"
             alt="Responsive image"></a>
-        <h2>Jhon Wick 4: Baba Yaga</h2>
+            <p>Jhon Wick 4: Baba Yaga</h2>
       </div>
       <div class="item">
         <a href='http://url-destino'> <img class="arredondado" src="images/transformers_rise_of_the_beasts_ver11_xlg.jpg  "
             class="img-fluid" alt="Responsive image"></a>
-        <h2>Transformers O Despertar das Feras</h2>
+            <p>Transformers O Despertar das Feras</h2>
       </div>
       <div class="item">
         <a href='http://url-destino'><img class="arredondado" src="images/scream_six_ver4_xlg.jpg" class="img-fluid"
@@ -115,11 +115,11 @@
       <div class="item">
         <a href='http://url-destino'> <img class="arredondado" src="images/puss_in_boots_the_last_wish_xlg.jpg" class="img-fluid"
             alt="Responsive image"></a>
-        <h2>Gato de Botas 2: O último pedido</h2>
+            <p>Gato de Botas 2: O último pedido</h2>
       </div>
       <div class="item">
         <a href='http://url-destino'><img class="arredondado" src="images/dune_part_two.jpg" class="img-fluid" alt="Responsive image"></a>
-        <h2>Duna 2</h2>
+        <p>Duna 2</h2>
       </div>
       <div class="item">
         <a href='http://url-destino'><img class="arredondado" src="images/evil_dead_rise_xlg.jpg" class="img-fluid"

@@ -16,17 +16,18 @@
         
             <li><a href="index.php">Início</a></li>
             <li><a href="filmes.php">Filmes</a></li>
-            <li><a href="animes.php">Animes</a></li>
+            <li><a href="noticias.php">Animes</a></li>
             <li> <a href="contato.php"> Contato </a> </li>
             <li> <a href="contato-lista.php"> Listar Contatos </a> </li>
-            <li><a href="login.php">Entrar</a></li>
+            <li><a href="cadastro-filmes.php">Cadastro Filmes</a></li>
         </ul>
     </nav>
 </header>
 
         <section>
-
-            <form action="contato-salvar.php" method="post">      
+        <div class="form">
+            <form action="contato-salvar.php" method="post"> 
+</div>     
                 <div>
                     <input type="text" placeholder="Nome" name="txNome" />
                 </div>		
