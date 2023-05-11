@@ -1,6 +1,6 @@
 <?php 
         $servidor = "localhost";
-        $banco="projeto-filmes";
+        $banco="projetofilmes";
         $usuario="root";
         $senha="";
         

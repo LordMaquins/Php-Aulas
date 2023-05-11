@@ -59,7 +59,7 @@
             </thead>
             <tbody>
             <?php
-                $stmt = $pdo->prepare("select * from projeto-filmes");	
+                $stmt = $pdo->prepare("select * from projetofilmes");	
                 $stmt ->execute();
                 
                 while($row = $stmt ->fetch(PDO::FETCH_BOTH)){

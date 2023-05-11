@@ -13,24 +13,7 @@
 
     }
         </style>
-</head>
-</head>
-    <body>  
-    <header>
-    <nav id="menu_h">
-        <ul >
-        <h1> FILMEZANDO</h1>
-        
-        <li><a href="index.php">Início</a></li>
-            <li><a href="filmes.php">Filmes</a></li>
-            <li><a href="noticias.php">Animes</a></li>
-            <li> <a href="contato.php"> Contato </a> </li>
-            <li> <a href="contato-lista.php"> Listar Contatos </a> </li>
-            <li><a href="cadastro-filmes.php">Cadastro Filmes</a></li>
-            
-        </ul>
-    </nav>
-</header>
+<?php include("cabecalho.php"); ?>
 
         <section>
         <div class="form">
