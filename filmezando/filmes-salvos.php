@@ -11,10 +11,10 @@
     
 
     $stmt = $pdo->prepare("insert into filmes
-    values(null,'$nomeFilme','$anoFilme','$genFilme','$diretorFilme','$roteiroFilme','$elencoFilme','$sinopse','$imagemFilme')");	    
+    values(null,'$nomeFilme','$anoFilme','$genero','$diretor','$roteiroFilme','$elenco','$sinopse','$imagemFilme')");	    
 	$stmt ->execute();    
 
-    //header("location:cadastro-filmes.php");  
-    echo ("test");  
+    //("location:cadastro-filmes.php");  
+    
     
 ?>
