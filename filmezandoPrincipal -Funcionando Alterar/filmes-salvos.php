@@ -9,17 +9,19 @@ p{
     include("conexao2.php");
     $nomeFilme = $_POST['txFilme'];
     $imagemFilme = $_POST['imagemFilme'];
-    $anoFilme = $_POST['txData'];
-    $genFilme = $_POST['txGen'];
-    $diretorFilme = $_POST['txDir'];
-    $roteiroFilme = $_POST['txRot'];
-    $elencoFilme = $_POST['txElen'];
+    $ano = $_POST['txData'];
+    $temp = $_POST['txTemp'];
+    $class = $_POST['txClass'];
+    $genero = $_POST['txGen'];
+    $diretor = $_POST['txDir'];
+    $roteiro = $_POST['txRot'];
+    $elenco = $_POST['txElen'];
     $sinopse = $_POST['txSin'];
     
     
 
     $stmt = $pdo->prepare("insert into filmes
-    values(null,'$nomeFilme','$imagemFilme','$anoFilme','$genFilme','$diretorFilme','$roteiroFilme','$elencoFilme','$sinopse')");	    
+    values(null,'$nomeFilme','$imagemFilme','$ano','$genero','$temp','$class','$diretor','$roteiro','$elenco','$sinopse')");	    
 	$stmt ->execute();    
 
     //Verificando se cadastrou com sucesso

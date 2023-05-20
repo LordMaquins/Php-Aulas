@@ -25,31 +25,37 @@
 </div>
             <form action="filmes-alterar.php" method="POST" enctype="multipart/form-data">      
                 <div>
-                    <input type="text" placeholder="Filme" name="txFilme" <?php echo @$_GET['nomeFilme']; ?>/>
+                    <input type="text" placeholder="Filme" name="txFilme" value="<?php echo @$_GET['nomeFilme']; ?>"/>
                 </div>	
                 </div>
                 
-                <input type="text" placeholder="Link imagem Filme"name="imagemFilme" id="imgFilme"<?php echo @$_GET['imagemFilme']; ?>  required> <br><br>
+                <input type="text" placeholder="Link imagem Filme"name="imagemFilme" id="imgFilme"    value="<?php echo @$_GET['imagemFilme']; ?>" required> <br><br>
 
                 <div>
-                    <input type="text" placeholder="Gênero" name="txGen"  <?php echo @$_GET['&genFilme']; ?>/>
-                </div>		
-                
+                    <input type="text" placeholder="Gênero" name="txGen"  value="<?php echo @$_GET['genero']; ?>"/>
+                </div>	
                 <div>
-                    <input type="text" placeholder="Data de lançamento" name="txData"  <?php echo @$_GET['anoFilme']; ?>/>
+                    <input type="text" placeholder="Duração" name="txTemp" value= "<?php echo @$_GET['temp']; ?>" />
                 </div>
                 <div>
-                    <input type="text" placeholder="Diretor" name="txDir" <?php echo @$_GET['diretorFilme']; ?> />
+                    <input type="text" placeholder="Classificação" name="txClass" value= "<?php echo @$_GET['class']; ?>" />
+                </div>	
+                
+                <div>
+                    <input type="text" placeholder="Data de lançamento" name="txData" value= "<?php echo @$_GET['ano']; ?>"/>
+                </div>
+                <div>
+                    <input type="text" placeholder="Diretor" name="txDir" value="<?php echo @$_GET['diretor']; ?>" />
                 </div>	
                 <div>
-                    <input type="text" placeholder="Roteiro" name="txRot"  <?php echo @$_GET['roteiroFilme']; ?>/>
+                    <input type="text" placeholder="Roteiro" name="txRot" value= "<?php echo @$_GET['roteiro']; ?>"/>
                 </div>	
                 <div>
-                    <input type="text" placeholder="Elenco" name="txElen"  <?php echo @$_GET['elencoFilme']; ?>/>
+                    <input type="text" placeholder="Elenco" name="txElen"  value="<?php echo @$_GET['elenco']; ?>"/>
                 </div>	
                 <div>
                 <div class="mb-3 col-12">
-                    <textarea  cols="30" rows="10" class="control" placeholder="Sinopse" name="txSin" <?php echo @$_GET['sinopse']; ?>></textarea>
+                    <textarea  cols="30" rows="10" class="control" placeholder="Sinopse" name="txSin" ><?php echo @$_GET['sinopse']; ?></textarea>
                 </div>
 
                 <div>
@@ -72,6 +78,8 @@
                 <th scope="col">Link_Imagem</th>
                 <th scope="col">Data de lançamento</th>
                 <th scope="col">Gênero</th>
+                <th scope="col">Duração</th>
+                <th scope="col">Classificação</th>
                 <th scope="col">Diretor</th>			
                 <th scope="col">Roteiro</th>
                 <th scope="col">Elenco</th>
@@ -95,9 +103,11 @@
                     echo "<td> $row[6] </td>";
                     echo "<td> $row[7] </td>";
                     echo "<td> $row[8] </td>";
+                    echo "<td> $row[9] </td>";
+                    echo "<td> $row[10] </td>";
                     echo "<td> 
-                    <a href='filmes-alterar.php?id=$row[0]&nomeFilme=$row[1]&imagemFilme=$row[2]&genFilme=$row[3]
-                    &anoFilme=$row[4]& &diretorFilme=$row[5]&roteiroFilme=$row[6]& &elencoFilme=$row[7]& &sinopse=$row[8]' > Editar </a>
+                    <a href='?id=$row[0]&nomeFilme=$row[1]&imagemFilme=$row[2]&genero=$row[3]&temp=$row[4]&class=$row[5]
+                    &ano=$row[6]& &diretor=$row[7]&roteiro=$row[8]& &elenco=$row[9]& &sinopse=$row[10]' > Editar </a>
                             <a href='filmes-excluir.php?id=$row[0]'> Excluir </a>
                           </td>";
                   echo "</tr>";

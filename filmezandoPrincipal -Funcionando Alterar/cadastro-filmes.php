@@ -5,6 +5,7 @@
 
     }
         </style>
+        
 <?php include("cabecalho.php"); ?>?>
 
         <section>
@@ -21,11 +22,21 @@
                 <input type="text" placeholder="Link imagem Filme"name="imagemFilme" id="imgFilme" required> <br><br>
 
                 <div>
-                    <input type="text" placeholder="Gênero" name="txGen" />
-                </div>		
-                
-                <div>
                     <input type="text" placeholder="Data de lançamento" name="txData" />
+                </div>
+                <div>
+                    <select  name="txGen" >
+                        <option value="1"> Drama </option>
+                        <option value="2"> Ação  </option>
+                        <option value="3"> Aventura </option>
+
+                    </select>
+                </div>	
+                <div>
+                    <input type="text" placeholder="Duração" name="txTemp" />
+                </div>
+                <div>
+                    <input type="text" placeholder="Classificação" name="txClass" />
                 </div>
                 <div>
                     <input type="text" placeholder="Diretor" name="txDir" />

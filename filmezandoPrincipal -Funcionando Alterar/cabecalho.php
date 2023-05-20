@@ -20,8 +20,6 @@
             <li><a href="index.php">Início</a></li>
             <li><a href="filmes.php">Filmes</a></li>
             <li><a href="noticias.php">Notícias</a></li>
-            <li> <a href="contato.php"> Contato </a> </li>
-            <li> <a href="contato-lista.php"> Lista Contatos </a> </li>
             <li> <a href="lista-filmes.php"> Lista Filmes </a> </li>
 
         
