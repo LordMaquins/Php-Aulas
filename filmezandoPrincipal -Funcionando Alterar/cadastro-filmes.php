@@ -29,6 +29,9 @@
                         <option value="1"> Drama </option>
                         <option value="2"> Ação  </option>
                         <option value="3"> Aventura </option>
+                        <option value="3"> Terror </option>
+                        <option value="3"> Animação </option>
+                        <option value="3"> Aventura </option>
 
                     </select>
                 </div>	

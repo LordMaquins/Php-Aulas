@@ -18,7 +18,7 @@
             $stmt ->execute();            
             while($row = $stmt ->fetch(PDO::FETCH_BOTH)){
         ?>    
-            <option value="<?php echo $row['idGenero'] ?>"> 
+            <option value="<?php echo $row['idGen'] ?>"> 
                 <?php echo $row['genero'] ?>
             </option>           
         <?php }	?>

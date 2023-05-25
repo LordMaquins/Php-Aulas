@@ -9,13 +9,13 @@
 </div>
 <div class="row">
     <div class="item ">
-      <a href='http://url-destino'> <img class="arredondado" src="images/flash_ver3.jpg" class="img-fluid"
+      <a href='info_filmes.php'> <img class="arredondado" src="images/flash_ver3.jpg" class="img-fluid"
           alt="Responsive image"> </a> 
           <div class="intro"><p>Flash</p></div>
           
     </div>
     <div class="item ">
-      <a href='http://url-destino'><img class="arredondado" src="images/oppenheimer_2.jpg" class="img-fluid"
+      <a href='info_filmes.php'><img class="arredondado" src="images/oppenheimer_2.jpg" class="img-fluid"
           alt="Responsive image"></a>
           <p>Oppenheimer</p>
           
@@ -23,13 +23,13 @@
     </div>
       <div class="item">
         
-        <a href='http://url-destino'><img class="arredondado" src="images/spiderman_across_the_spiderverse_ver3.jpg"
+        <a href='info_filmes.php'><img class="arredondado" src="images/spiderman_across_the_spiderverse_ver3.jpg"
             class="img-fluid" alt="Responsive image"></a> 
             <p>Homem-aranha <br> Através do Aranha verso</p>
 </div>
 
             <div class="item">
-        <a href='http://url-destino'> <img class="arredondado" src="images/transformers_rise_of_the_beasts_ver11_xlg.jpg  "
+        <a href='info_filmes.php'> <img class="arredondado" src="images/transformers_rise_of_the_beasts_ver11_xlg.jpg  "
             class="img-fluid" alt="Responsive image"></a>
         <p>Transformers O Despertar das Feras</p>
       </div>

@@ -2,7 +2,7 @@
     include("conexao2.php");
     $id = $_POST['txIdFilme'];
     $nomeFilme = $_POST['txFilme'];
-    $imagemFilme = $_POST['imagemFilme'];
+    $imagemFilme = $_FILES['imagemFilme'];
     $ano = $_POST['txData'];
     $temp = $_POST['txTemp'];
     $class = $_POST['txClass'];
@@ -15,7 +15,7 @@
 
     $stmt = $pdo->prepare("
         update filmes set
-        nomerFilme='$nomeFilme',
+        nomeFilme='$nomeFilme',
         imgFilme='$imagemFilme',
         anoFilme='$ano',
         genero='$$genero'
