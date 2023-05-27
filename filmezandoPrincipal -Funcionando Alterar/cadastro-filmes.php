@@ -17,9 +17,9 @@
                 <div>
                     <input type="text" placeholder="Filme" name="txFilme" />
                 </div>	
-                </div>
                 
-                <input type="text" placeholder="Link imagem Filme"name="imagemFilme" id="imgFilme" required> <br><br>
+                
+                <input type="file" placeholder="Link imagem Filme"name="imagemFilme" required> <br><br> 
 
                 <div>
                     <input type="text" placeholder="Data de lançamento" name="txData" />
