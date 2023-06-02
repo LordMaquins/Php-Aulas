@@ -17,9 +17,11 @@
                 <div>
                     <input type="text" placeholder="Filme" name="txFilme" />
                 </div>	
+               
+        <input type="file" name="imagemFilme">
+        
+    
                 
-                
-                <input type="file" placeholder="Link imagem Filme"name="imagemFilme" required> <br><br> 
 
                 <div>
                     <input type="text" placeholder="Data de lançamento" name="txData" />
