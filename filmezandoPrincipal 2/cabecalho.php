@@ -21,6 +21,7 @@
             <li><a href="filmes.php">Filmes</a></li>
             <li><a href="noticias.php">Notícias</a></li>
             <li> <a href="lista-filmes.php"> Lista Filmes </a> </li>
+            <li> <a href="login.php"> Login </a> </li>
 
         
             <li><a href="cadastro-filmes.php">Cadastro Filmes</a></li>
