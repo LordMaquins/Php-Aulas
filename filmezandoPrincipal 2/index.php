@@ -2,7 +2,7 @@
 
 
 
-<div class="banner">
+
 
 
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -12,15 +12,16 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
-      <div class="bannee2">
+    <div class="banner">
         <div class="carousel-item active">
-          <img class="d-block w-90" src="images/ggg.jpg" alt="First slide">
+          <img class="d-block w-100"  src="images/flash_banner.jpg" alt="First slide">
         </div>
 
         <div class="carousel-item">
-          <img class="d-block w-90" src="images/doreto.jpg" alt="Second slide">
+          <img class="d-block w-90" src="images/rocket.jpg" alt="Second slide">
 
         </div>
+        
         
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -33,14 +34,12 @@
       </a>
 
 
-    </div>
-
-  </div>
+    
 
             <h1 class="title">FILMES</h1>
 <p></p>
 <div class="p">
-<a href='http://url-destino'><p2>#Críticas </p2></a> <a href='http://url-destino'><p3> #Top melhores 2022 </p3></a> <a href='http://url-destino'> <p5>#Em cartaz</p5></a>
+<a href='https://www.adorocinema.com/filmes/criticas-filmes/'><p2>#Críticas </p2></a> <a href='https://www.adorocinema.com/filmes/criticas-filmes/'><p3> #Top melhores da hístoria</p3></a> <a href='https://m.ingresso.com/filmes'> <p5>#Em cartaz</p5></a>
 </div>
 
   
@@ -49,13 +48,13 @@
 
   <div class="row">
     <div class="item ">
-      <a href='http://url-destino'> <img class="arredondado" src="images/flash_ver3.jpg" class="img-fluid"
+      <a href='pag_film2.php'> <img class="arredondado" src="images/flash_ver3.jpg" class="img-fluid"
           alt="Responsive image"> </a> 
           <div class="intro"><p>Flash</p></div>
           
     </div>
     <div class="item ">
-      <a href='http://url-destino'><img class="arredondado" src="images/oppenheimer_2.jpg" class="img-fluid"
+      <a href='pag_film3.php'><img class="arredondado" src="images/oppenheimer_ver3_xlg.jpg" class="img-fluid"
           alt="Responsive image"></a>
           <p>Oppenheimer</p>
           
@@ -63,25 +62,25 @@
     </div>
       <div class="item">
         
-        <a href='http://url-destino'><img class="arredondado" src="images/spiderman_across_the_spiderverse_ver3.jpg"
+        <a href='pag_film.php'><img class="arredondado" src="images/spiderman_across_the_spiderverse_ver3.jpg"
             class="img-fluid" alt="Responsive image"></a> 
             <p>Homem-aranha <br> Através do Aranha verso</p>
 </div>
 
             <div class="item">
-        <a href='http://url-destino'> <img class="arredondado" src="images/transformers_rise_of_the_beasts_ver11_xlg.jpg  "
+        <a href='pag_film4'> <img class="arredondado" src="images/transformers_rise_of_the_beasts_ver11_xlg.jpg  "
             class="img-fluid" alt="Responsive image"></a>
         <p>Transformers O Despertar das Feras</p>
       </div>
 
       <div class="item">
-        <a href='http://url-destino'> <img class="arredondado" src="images/indiana jones.jpg  "
+        <a href='pag_film5'> <img class="arredondado" src="images/indiana jones.jpg  "
             class="img-fluid" alt="Responsive image"></a>
         <p>Indiana Jones: A relíquia do destino</p>
       </div>
 
       <div class="item">
-        <a href='http://url-destino'> <img class="arredondado" src="images/barbie.jpg "
+        <a href='pag_film6'> <img class="arredondado" src="images/barbie_ver2_xlg.jpg"
             class="img-fluid" alt="Responsive image"></a>
         <p>Barbie</p>
       </div>
@@ -91,6 +90,13 @@
             class="img-fluid" alt="Responsive image"></a>
         <p>As Marvels</p>
       </div>
+      <div class="item ">
+      <a href='pag_film7.php'><img class="arredondado" src="images/pequenasereia.jpg" class="img-fluid"
+          alt="Responsive image"></a>
+          <p>A pequena sereia</p>
+          
+
+    </div>
 
       
       <div class="item">
@@ -107,7 +113,7 @@
       </div>
 
       <div class="item">
-        <a href='http://url-destino'> <img class="arredondado" src="images/besouro azul.jpg"
+        <a href='pag_film8'> <img class="arredondado" src="images/blue_beetle_ver3_xlg.jpg"
             class="img-fluid" alt="Responsive image"></a>
         <p>Besouro Azul</p>
       </div>

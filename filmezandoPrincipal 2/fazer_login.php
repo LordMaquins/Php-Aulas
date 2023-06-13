@@ -1,12 +1,12 @@
 <?php
 
 
-
+session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Verificar o usuário e senha
-    $usuario_correto = "usuario"; // Altere para o usuário correto
-    $senha_correta = "senha"; // Altere para a senha correta
+    $usuario_correto = "mv20040908@gmail.com"; // Altere para o usuário correto
+    $senha_correta = "12"; // Altere para a senha correta
 
     $usuario = $_POST["txEmail"];
     $senha = $_POST["txSenha"];

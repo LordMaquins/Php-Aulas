@@ -1,4 +1,3 @@
-
 <style>.form{
      
      margin-top: 100px;
@@ -12,7 +11,11 @@
             <h1>LOGIN</h1>
 </div>
 
-<?php include("fazer_login.php") ?>
+<?php
+
+
+
+include("fazer_login.php") ?>
     <?php include("cabecalho.php"); ?>
 
     
@@ -45,6 +48,8 @@
                     <input type="submit" value="Login" />
                 </div>
             </form>
+            <p>Não possui uma conta? <a href="cadastro.php">Criar Conta</a></p>
+            
       
 
             
