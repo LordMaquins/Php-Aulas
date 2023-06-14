@@ -40,12 +40,16 @@ body{
 
 #menu_h {
     list-style: none;
-    padding: 0;
+    padding: 10px;
     background-color: rgb(0, 0, 0);
+  
 }
 
 #menu_h ul li {
     display: inline;
+    margin-left: 20px;
+    
+    height: 20px;
 }
 
 #menu_h ul li a {
@@ -60,10 +64,7 @@ body{
     background-color: rgb(24, 139, 233);
 }
 
-#menu_h ul li:last-child {
-    float: right;
-    background-color: rgb(24, 139, 233);
-}
+
 
 
 

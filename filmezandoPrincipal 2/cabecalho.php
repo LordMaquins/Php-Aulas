@@ -19,7 +19,7 @@
 
             <li><a href="index.php">Início</a></li>
             <li><a href="filmes.php">Filmes</a></li>
-            <li><a href="noticias.php">Animes</a></li>
+            <li><a href="animes.php">Animes</a></li>
             <li> <a href="lista-filmes.php"> Lista Filmes </a> </li>
             <li> <a href="login.php"> Login </a> </li>
 

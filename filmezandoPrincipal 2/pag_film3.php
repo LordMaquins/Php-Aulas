@@ -52,10 +52,6 @@ div.item2 img {
      padding-bottom: 10px;
      text-decoration: none;
      display: inline-block;
-     
-     
-
-
 
     }
 
