@@ -44,16 +44,18 @@
       </div>
 
       <div class="item">
-        <a href='pag_film5.php'> <img class="arredondado" src="images/naruto.jpg"
+        <a href='pag_ani2.php'> <img class="arredondado" src="images/naruto.jpg"
             class="img-fluid" alt="Responsive image"></a>
         <p>Naruto shippuden</p>
       </div>
-
-      <div class="item">
-        <a href='pag_film6.php'> <img class="arredondado" src=""
-            class="img-fluid" alt="Responsive image"></a>
-        <p>Black Clover</p>
-      </div>
+      <div class="row">
+    <div class="item ">
+      <a href='pag_ani.php'> <img class="arredondado" src="images/akira.jpg" class="img-fluid"
+          alt="Responsive image"> </a> 
+          <div class="intro"><p>Akira</p></div>
+          
+    </div>
+     
       <div class="item ">
       <a href='pag_film7.php'><img class="arredondado" src="images/anya.jpg" class="img-fluid"
           alt="Responsive image"></a>
@@ -76,38 +78,13 @@
       </div>
 
       <div class="item">
-        <a href='pag_film8.php'> <img class="arredondado" src=""
+        <a href='pag_film8.php'> <img class="arredondado" src="images/vilant saga.jpg"
             class="img-fluid" alt="Responsive image"></a>
         <p>Vilant Saga</p>
       </div>
 
       
 
-      <div class="row">
-    <div class="item ">
-      <a href='pag_film.php'> <img class="arredondado" src="images/vilant saga.jpg" class="img-fluid"
-          alt="Responsive image"> </a> 
-          <div class="intro"><p>Tokyo Revenger</p></div>
-          
-    </div>
-    <div class="item ">
-      <a href='pag_film.php'><img class="arredondado" src="" class="img-fluid"
-          alt="Responsive image"></a>
-          <p>Sword art online</p>
-          
-
-    </div>
-      <div class="item">
-        
-        <a href='pag_film.php'><img class="arredondado" src=""
-            class="img-fluid" alt="Responsive image"></a> 
-            <p>Bleach</p>
-</div>
-
-            <div class="item">
-        <a href='pag_film.php'> <img class="arredondado" src=""
-            class="img-fluid" alt="Responsive image"></a>
-        <p>Death Note</p>
-      </div>
+   
 </body>
 </html>

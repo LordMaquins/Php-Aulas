@@ -41,7 +41,7 @@
       </div>
 
       <div class="item">
-        <a href='pag_film6.php'> <img class="arredondado" src="images/barbie.jpg "
+        <a href='pag_film6.php'> <img class="arredondado" src="images/barbie_ver2_xlg (1).jpg"
             class="img-fluid" alt="Responsive image"></a>
         <p>Barbie</p>
       </div>

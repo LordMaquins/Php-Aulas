@@ -63,7 +63,7 @@ div.item2 img {
 </head>
  <?php include("cabecalho.php"); ?>
 <?php
-$filmes = json_decode(file_get_contents('filmes7.json'), true);
+$filmes = json_decode(file_get_contents('animes2.json'), true);
 ?>
 <?php foreach ($filmes as $filme): ?>
    
@@ -78,7 +78,7 @@ $filmes = json_decode(file_get_contents('filmes7.json'), true);
           <div class="row">
     <div class="item2 ">
         
-          <img src="images/pequenasereia.jpg" alt="Cartaz do Filme">
+          <img src="images/naruto.jpg" alt="Cartaz do Filme">
       </div>
 </div>
 </div>
@@ -90,12 +90,13 @@ $filmes = json_decode(file_get_contents('filmes7.json'), true);
           <h2><?php echo $filme['titulo']; ?></h2>
           <p ><strong>Data de Lançamento: </strong><?php echo $filme['dataLancamento']; ?></p>
           <p><strong>Genero: </strong><?php echo $filme['genero']; ?> </p>
-          <p><strong>Duração: </strong><?php echo $filme['duracao']; ?> minutos</p>
+          <p><strong>Duração: </strong><?php echo $filme['duracao']; ?> Temporadas</p>
           <p><strong>Sinopse: </strong><?php echo $filme['sinopse']; ?></p>
           <p><strong>Elenco: </strong><?php echo $filme['elenco']; ?></p>
           <p><strong>Roteiro/Diretor: </strong><?php echo $filme['roteiroDiretor']; ?></p>
           <p><strong>Distribuição: </strong><?php echo $filme['distribuidora']; ?></p>
-          <p>Link trailer:<a href='https://youtu.be/_4is7I_ZxTg'>https://youtu.be/_4is7I_ZxTg</p></a>
+          <p>Link trailer:<a href='https://youtu.be/nA8KmHC2Z-g'>https://youtu.be/nA8KmHC2Z-g</p></a>
+          
       </div>
 </div>
   </div>

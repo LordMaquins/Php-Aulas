@@ -18,7 +18,7 @@
                     <input type="text" placeholder="Filme" name="txFilme" />
                 </div>	
                
-        <input type="file" name="imagemFilme">
+        <input type="text" placeholder="Imagem" name="imagemFilme">
         
     
                 
@@ -33,7 +33,8 @@
                         <option value="3"> Aventura </option>
                         <option value="3"> Terror </option>
                         <option value="3"> Animação </option>
-                        <option value="3"> Aventura </option>
+                        <option value="3"> Comédia </option>
+                        <option value="3"> Ficção Científica </option>
 
                     </select>
                 </div>	

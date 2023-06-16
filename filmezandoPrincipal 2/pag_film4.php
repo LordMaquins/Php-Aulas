@@ -89,12 +89,13 @@ $filmes = json_decode(file_get_contents('filmes4.json'), true);
           <!-- Aqui serão exibidas as informações do filme -->
           <h2><?php echo $filme['titulo']; ?></h2>
           <p ><strong>Data de Lançamento: </strong><?php echo $filme['dataLancamento']; ?></p>
+          <p><strong>Genero: </strong><?php echo $filme['genero']; ?> </p>
           <p><strong>Duração: </strong><?php echo $filme['duracao']; ?> minutos</p>
           <p><strong>Sinopse: </strong><?php echo $filme['sinopse']; ?></p>
           <p><strong>Elenco: </strong><?php echo $filme['elenco']; ?></p>
           <p><strong>Roteiro/Diretor: </strong><?php echo $filme['roteiroDiretor']; ?></p>
           <p><strong>Distribuição: </strong><?php echo $filme['distribuidora']; ?></p>
-          <p>Link trailer:<a href='https://youtu.be/PHC412-pCoQ'>https://youtu.be/_4is7I_ZxTg</p></a>
+          <p>Link trailer:<a href='https://youtu.be/_4is7I_ZxTg'>https://youtu.be/_4is7I_ZxTg</p></a>
           
       </div>
 </div>
