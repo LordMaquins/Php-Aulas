@@ -128,17 +128,8 @@ header nav ul {
 header nav ul li a {
     color: rgb(0, 0, 0);
 }
-.banner {
-    width: 300px; /* Largura do banner */
-    height: 450px; /* Altura do banner */
-  }
-  
-  .banner img {
-    width: 100%; /* Imagem do banner ocupando toda a largura */
-    height: 100%; /* Imagem do banner ocupando toda a altura */
-    object-fit: cover; /* Redimensionar a imagem para preencher o espaço */
-  }
-  
+
+
 
 
 

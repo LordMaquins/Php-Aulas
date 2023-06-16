@@ -1,7 +1,9 @@
 <?php
-
-
+// Inicia a sessão
 session_start();
+
+// Define o nível de acesso do usuário (pode ser 'comum' ou 'admin')
+$_SESSION['nivel_acesso'] = 'comum';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Verificar o usuário e senha
