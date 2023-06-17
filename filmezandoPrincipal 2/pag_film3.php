@@ -91,7 +91,7 @@ $filmes = json_decode(file_get_contents('filmes3.json'), true);
           <p><strong>Elenco: </strong><?php echo $filme['elenco']; ?></p>
           <p><strong>Roteiro/Diretor: </strong><?php echo $filme['roteiroDiretor']; ?></p>
           <p><strong>Distribuição: </strong><?php echo $filme['distribuidora']; ?></p>
-          <p>Link trailer:<a href='https://youtu.be/_4is7I_ZxTg'>https://youtu.be/_4is7I_ZxTg</p></a>
+          <p><strong>Link trailer:</strong><a href='https://youtu.be/_4is7I_ZxTg'>https://youtu.be/_4is7I_ZxTg</p></a>
           
       </div>
 </div>

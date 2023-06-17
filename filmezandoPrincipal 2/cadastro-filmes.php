@@ -11,14 +11,14 @@
         <section>
         <div class="form">
         <div class="title">
-            <h1>Cadastre os novos filmes</h1>
+            <h1>Cadastro de novos filmes</h1>
 </div>
             <form action="filmes-salvos.php" method="POST" enctype="multipart/form-data">      
                 <div>
                     <input type="text" placeholder="Filme" name="txFilme" />
                 </div>	
                
-        <input type="text" placeholder="Imagem" name="imagemFilme">
+        <input type="text" placeholder="Link da imagem" name="imagemFilme">
         
     
                 
@@ -66,4 +66,5 @@
         </section>
         
     </body>
+    <?php include("rodape.php"); ?>   
 </html>

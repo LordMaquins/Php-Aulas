@@ -27,7 +27,15 @@
       <a href='pag_film3.php'><img class="arredondado" src="images/jujutsucerto.jpg"class="img-fluid"
           alt="Responsive image"></a>
           <p>Jujutsu Kaisen</p>
+          </div>
+
+          <div class="row">
+    <div class="item ">
+      <a href='pag_ani.php'> <img class="arredondado" src="images/akira.jpg" class="img-fluid"
+          alt="Responsive image"> </a> 
+          <div class="intro"><p>Akira</p></div>
           
+    </div>
 
     </div>
       <div class="item">
@@ -48,14 +56,7 @@
             class="img-fluid" alt="Responsive image"></a>
         <p>Naruto shippuden</p>
       </div>
-      <div class="row">
-    <div class="item ">
-      <a href='pag_ani.php'> <img class="arredondado" src="images/akira.jpg" class="img-fluid"
-          alt="Responsive image"> </a> 
-          <div class="intro"><p>Akira</p></div>
-          
-    </div>
-     
+    
       <div class="item ">
       <a href='pag_film7.php'><img class="arredondado" src="images/anya.jpg" class="img-fluid"
           alt="Responsive image"></a>
@@ -84,7 +85,8 @@
       </div>
 
       
-
-   
+  </div>
+      <?php include("rodape.php"); ?>   
 </body>
+
 </html>

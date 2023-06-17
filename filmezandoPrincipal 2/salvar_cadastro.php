@@ -10,12 +10,12 @@ p{
     $nome = $_POST['txNome'];
     $email = $_POST['txEmail'];
     $senha = $_POST['txSenha'];
-    
-    
+    $hash = md5($senha);
+
     
 
     $stmt = $pdo->prepare("insert into tbusuario
-    values(null,'$nome','$email','$senha')");	    
+    values(null,'$nome','$email','$hash')");	    
 	$stmt ->execute();    
 
     //Verificando se cadastrou com sucesso

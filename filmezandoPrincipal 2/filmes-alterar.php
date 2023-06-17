@@ -29,13 +29,4 @@
 
  header("location:lista-filmes.php");  
  
-    //Verificando se alterou com sucesso
-
-    if($stmt->rowCount()){
-        echo "<p style= 'color: green;'>Filme cadastrado com sucesso</p>";
-    } else{
-        echo "<p style= 'color: red;'>Erro: filme não cadastrado </p>";
-    }
-      
-    
 ?>

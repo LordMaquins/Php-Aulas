@@ -43,9 +43,9 @@ include("fazer_login.php") ?>
                 </div>
             </form>
             <p>Não possui uma conta? <a href="cadastro.php">Criar Conta</a></p>
-
-            
-        </section>
-        
-    </body>
+        </div>
+        </section> 
+    </body>   
+    
 </html>
+ 

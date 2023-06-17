@@ -39,7 +39,7 @@
             <h1 class="title">FILMES</h1>
 <p></p>
 <div class="p">
-<a href='https://www.adorocinema.com/filmes/criticas-filmes/'><p2>#Críticas </p2></a> <a href='https://www.adorocinema.com/filmes/criticas-filmes/'><p3> #Top melhores da hístoria</p3></a> <a href='https://m.ingresso.com/filmes'> <p5>#Em cartaz</p5></a>
+<a href='https://www.rottentomatoes.com/browse/movies_in_theaters/sort:newest'><p2>#Críticas </p2></a> <a href='https://www.adorocinema.com/filmes/criticas-filmes/'><p3> #Top melhores da hístoria</p3></a> <a href='https://m.ingresso.com/filmes'> <p5>#Em cartaz</p5></a>
 </div>
 
   
@@ -105,26 +105,11 @@
         <p>Missão: Impossível – Acerto de Contas </p>
       </div>
 
-      
-      <div class="item">
-        <a href='http://url-destino'> <img class="arredondado" src="images/fastxposter_3955893.jpg"
-            class="img-fluid" alt="Responsive image"></a>
-        <p>Velozes e Furiosos 10</p>
-      </div>
-
       <div class="item">
         <a href='pag_film8'> <img class="arredondado" src="images/blue_beetle_ver3_xlg.jpg"
             class="img-fluid" alt="Responsive image"></a>
         <p>Besouro Azul</p>
       </div>
 </div>
-
-
-      
-        
-            
-
-
-
-
+</div>
  <?php include("rodape.php"); ?>
