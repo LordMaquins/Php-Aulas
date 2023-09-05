@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quero ajudar</title>
+    <link rel="stylesheet" href="css/doacaoStyle.css" />
+
 </head>
 <body>
     <h1>Quero Ajudar</h1>
@@ -12,10 +14,13 @@
      Cada um deles é entregue a você castrado, vacinado e livre de vermes, prontos para se tornarem seus fiéis amigos.</p>
 
     <h1>Salve Vidas Peludas</h1>  
-    <!-- Se quiser colocar uma imagem coloque aqui -->
 
+
+    <img class="dogPidao" src="imgDog/dogdebotas.webp" >
+
+    <div class="m">
     <h3>Junte-se à Nossa Missão</h3>
-
+    </div>
     <p>Você já sentiu o amor incondicional de um animal de estimação? <br>
     Agora é a sua chance de experimentar essa conexão especial. <br>
     Com sua generosa doação, podemos continuar a proporcionar <br>

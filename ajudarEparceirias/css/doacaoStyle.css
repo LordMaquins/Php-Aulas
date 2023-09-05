@@ -1,0 +1,26 @@
+
+body{
+font-family: 'Poppins', "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+   
+}   
+h1{
+    font-size: 37px;
+    color: rgb(219, 6, 148);
+}
+h2{
+    font-size: 27px;
+    color: rgb(219, 6, 148);
+}
+
+.m{
+font-size: 20px;
+}
+.dogPidao{
+    width: 85%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    margin-left: 50px;
+}
