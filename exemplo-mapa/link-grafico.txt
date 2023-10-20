@@ -1,0 +1,6 @@
+Link API Google sobre gráficos
+https://developers-dot-devsite-v2-prod.appspot.com/chart/interactive/docs?hl=pt-br
+
+
+Exemplo gráfico de Pizza
+https://developers-dot-devsite-v2-prod.appspot.com/chart/interactive/docs/quick_start?hl=pt-br
